@@ -4,22 +4,34 @@ body {
 }
 
 h1 {
-  font-size: 40px;
-  font-family: Ubuntu;
+  font-size: 50px;
 }
 .name-highlight {
   color: rgb(255, 123, 0);
 }
 .half-width {
   width: 40%;
-  float: left;
   margin-left: 5%;
   padding-left: 2%;
+  float: left;
 }
 
 .half-width img {
-  width: 100%;
+  width: 90%;
 }
-.top-bannaer {
+.top-banner {
   background-image: url(top-banner.png);
+  background-repeat: no-repeat;
+}
+section {
+  height: 500px;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(lightsalmon, tomato);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font: 700px;
+  width: 100%;
 }
